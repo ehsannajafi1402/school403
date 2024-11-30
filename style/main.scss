@@ -1,0 +1,30 @@
+@import './variables';
+
+// public
+a , a>*{
+    text-decoration: none !important;
+    color: inherit;
+}
+
+
+// header
+header {
+    height: 600px;
+}
+@media (max-width:600px){
+    header{
+        height: 300px;
+    }
+}
+
+//section
+section {
+    scroll-margin-top: 100px
+}
+
+// #eighth{
+//     background-image: url('../images/star.png')
+// }
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
