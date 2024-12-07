@@ -1,0 +1,55 @@
+.text{
+    color: aliceblue;
+}
+
+.card_collactions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+
+}
+
+.card {
+    padding: 5px;
+    text-align: center;
+    background-color: #feb1b7;
+    width: 175px;
+    height: 225px;
+    padding: 10px;
+}
+
+.img_card {
+    height: 125px;
+    width: 150px;
+}
+
+.menu {
+    background-color: rgb(0, 0, 0);
+    height: 35px;
+}
+
+.header {
+    background-image: url('./images/mccord_exposition_christian-dior_900x480-900x480.jpg');
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #feb1b7;
+    background-size: contain;
+    height: 300px;
+}
+
+.parts {
+    background-color: rgb(0, 0, 0);
+    min-height: 200px;
+    padding: 50px 8%;
+}
+.part2_img{
+    min-height: 150px;
+}
+.footer {
+    background-color: rgb(254, 177, 183);
+    height: 200px
+}
+.part5{
+color: #feb1b7;
+}

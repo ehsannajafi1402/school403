@@ -1,0 +1,50 @@
+.zahra {
+    background-color: rgb(249,245,246);
+    min-height: 60px;
+}
+.nabi {
+    background-color: rgb(248,232,238);
+    height: 300px;
+}
+
+.sec {
+    min-height: 400px;
+    padding: 50px 6% 50px 6%;
+}
+
+.mahya {
+    background-color: rgb(249,245,246);
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-image: url
+}
+
+.mahya2 {
+    background-color: rgb(248,232,238);
+    min-height: 200px;
+}
+
+.yasmin {
+    background-color: rgb(253,206,223);
+    min-height: 100px;
+}
+
+.card {
+    width: 350px;
+    /* height: 200px; */
+    background-color: rgb(242,190,209);
+    padding: 10px;
+}
+
+.card_img {
+    width: 350px;
+    height: 250px
+}
+.card_list{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.mahya3{
+    background-color: rgb(242,190,209);;
+}
