@@ -72,7 +72,7 @@ hr{
 }
 .tt3{
     margin-left: 47.5px;
-    width: 200px;
+    width: 3000px;
 }
 .mt3{
     width: 200px;
@@ -123,4 +123,19 @@ hr{
     margin-left: 700px;
     width: 900px;
     font-size: 1.7em;
+}
+li{
+    display: inline-block;
+    cursor: pointer;
+    color: rgb(101, 146, 186);
+    margin: 40px;
+    margin-top: 10px;
+    width: 200px;
+    height: 60px;
+    font-size: 3em;
+    animation: both;
+}
+li:hover{
+    text-shadow: 3px 3px 3px black;
+    animation: backwards;
 }
