@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+  />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <h2>Python</h2>
+    </div>
+      <div class="row">
+        <div class="col-xs-9">
+          <div class="row">
+            <video src="cd82480a6def7d4d8e045e67ac06994d47428434-480p.mp4" width="100%"  onmousedown="videoClicked()">
+                <track kind="captions" srclang="en" src="subtitles.vtt">
+              </video>
+          </div>
+          <div class="row">
+            
+            <button type="button" class="btn btn-danger" onclick="toggleMute()">Mute/Unmute</button>
+            <button type="button" class="btn btn-danger" onclick="changePlaybackSpeed(.5)">Slow</button>
+            <button type="button" class="btn btn-danger" onclick="changePlaybackSpeed(1)">Normal</button>
+            <button type="button" class="btn btn-danger" onclick="changePlaybackSpeed(2)">Fast</button>
+            <button type="button" class="btn btn-secondary" onclick="toggleCaptions()">Caption</button>
+        
+          </div>
+        </div>
+
+        <div class="col-xs-3">
+          <div class="row">
+            <div class="col-xs-4" onclick="goTime(0)">
+              <img src="1.jpg" width="100%" />
+            </div>
+            <div class="col-xs-8">1. Introduction</div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-xs-4" onclick="goTime(60)">
+              <img src="1.jpg" width="100%" />
+            </div>
+            <div class="col-xs-8">2. Code</div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-xs-4" onclick="goTime(120)">
+              <img src="1.jpg" width="100%" />
+            </div>
+            <div class="col-xs-8" >3. Conclusion</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <h1>Copy-Right</h1>
+      </div>
+    </div>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
