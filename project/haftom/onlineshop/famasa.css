@@ -6,14 +6,18 @@
 }
 
 .header {
+    background-image: url('./GettyImages-607396320\ \(1\).webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
     background-color: #ffd6ea;
-    height: 400px;
+    height:700px;
 }
 
 .parts {
     background-color: #ffd6ea;
     min-height: 200px;
-    padding: 10px 8% 10px 8%;
+    padding: 20px 8% 20px 8%;
 
 }
 .card {

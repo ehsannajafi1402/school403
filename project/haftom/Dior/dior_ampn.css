@@ -53,3 +53,12 @@
 .part5{
 color: #feb1b7;
 }
+.service_card {
+    width: 250px;
+    text-align: center;
+
+}
+.icon_card{
+    font-size:xx-large;
+    width: 5px;
+}
