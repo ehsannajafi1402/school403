@@ -1,0 +1,141 @@
+body{
+    background-image: url(pic/tile_background.png);
+}
+.title{
+    height: 330px;
+}
+.title2{
+    margin-left: 800px;
+    font-size: 4.6em;
+}
+.title3{
+    margin-left: 900px;
+    font-size: 2em;
+}
+p{
+    margin-left: 140px; 
+    color: rgb(20, 108, 108);
+}
+*{
+font-weight: bold;
+font-family: Lalezar;
+}
+hr{
+    margin-top: 10px;
+    color: black;
+}
+.card{
+    height: 300px;
+    width: 200px;
+    background-color: bisque;
+    margin-top: 80px;    
+    margin-left: 40px;
+    cursor: pointer;
+}
+.mt{
+    width: 200px;
+    height: 150px;
+}
+.tt{
+    margin-left: 30px;
+    width: 200px;
+}
+.hot2{
+    margin-left: 1000px;
+    font-size: 5em;
+}
+.card2{
+    height: 300px;
+    width: 200px;
+    background-color: bisque;
+    margin-top: -300px;    
+    margin-left: 400px;
+    cursor: pointer;
+}
+.mt2{
+    width: 200px;
+    height: 150px;
+}.hot{
+    height: 330px;
+}
+.tt2{
+    margin-left: 7.5px;
+    width: 200px;
+}
+.card3{
+    height: 300px;
+    width: 200px;
+    background-color: bisque;
+    margin-top: -300px;    
+    margin-left: 760px;
+    cursor: pointer;
+}
+.tt3{
+    margin-left: 47.5px;
+    width: 3000px;
+}
+.mt3{
+    width: 200px;
+    height: 150px;
+}
+.card4{
+    height: 300px;
+    width: 200px;
+    background-color: bisque;
+    margin-top: -300px;    
+    margin-left: 1120px;
+    cursor: pointer;
+}
+.mt4{
+    width: 200px;
+    height: 150px;
+}
+.tt4{
+    margin-left: 52.5px;
+    width: 200px;
+}
+.ty{
+    margin-top: 300px;
+}
+.rtrt{
+    height: 330px;
+}
+.rtrt2{
+    margin-left: 1000px;
+    font-size: 4em;
+}
+.rtrt3{
+    margin-left: 1000px;
+    font-size: 2em;
+}
+.rtrt4{
+    margin-left: 140px;
+    font-size: 4.5em;
+    margin-top: -150px;
+    color: chocolate;
+    -webkit-text-stroke: 3px black;
+    cursor: pointer;
+}
+.ee{
+    margin-top: -50px;
+}
+.rtrt5{
+    margin-left: 700px;
+    width: 900px;
+    font-size: 1.7em;
+}
+li{
+    display: inline-block;
+    cursor: pointer;
+    color: rgb(101, 146, 186);
+    margin: 40px;
+    margin-top: 10px;
+    width: 200px;
+    height: 60px;
+    font-size: 3em;
+    animation: both;
+}
+li:hover{
+    text-shadow: 3px 3px 3px black;
+    animation: backwards;
+}
