@@ -6,30 +6,78 @@
 </head>
 <body>
     <style>
+        body{
+            direction: rtl;
+        }
         .menu{
             background-color: wheat;
-            height: 60px;
+            height: 100px;
         }
         .header{
             background-color: black;
             height: 50px;
         }
         .ports{
-            height: 400px;
+            min-height: 400px;
             background-color: wheat;
+            background-image: url(./football/pattern4.jpg);
+            padding: 50px 5% ;
         }
-        .port1{
-            background-image: url('./football/zz.jpg');
+        /* .port1{
+            background-image: url('./football/pattern2.jpg');
             
+        } */
+        .kart{
+            width: 300px;
+            height: 400px;
+            background-color: rgb(235, 211, 28);
+            text-align: center;
         }
+        .ax{
+            width: 300px;
+            height: 250px;
 
+        }
+        .football{
+            flex-wrap: wrap;
+display: flex;
+gap: 50px;
+        }
+        
     </style>
     
 
-<div class="menu"><h4>ارتباط با ما</h4></div>
+<div class="menu"><h1>بازیکنان برتر                                          ارتباط با ما</h1></div>
 <div class="header"></div>
-    <div class="ports port1">1</div>
-    <div class="ports port2">1</div>
+    <div class="ports port1"></div>
+    <div class="ports port2">
+        <h1>بازیکنان برتر</h1>
+        <div class="football">
+            <div class="kart">
+                <img class="ax" src="./football/messi.jpg" alt="">
+                <h2>لیونل مسی</h2>
+                <h1>برنده  جام جهانی2022</h1>
+            </div>
+
+           <div class="kart">
+                <img class="ax" src="./football/emba.jpg" alt="">
+                <h2>کلین امباپه</h2>
+                <h1>برنده جام جهانی 2018</h1>
+            </div>
+            <div class="kart">
+                <img class="ax" src="./football/namar2.jpg" alt="">
+                <h2>نیمار جونیور</h2>
+                <h1>در لیگ عربستان بازی می کند(ولی در اصل نمی کند)</h1>
+            </div>
+            <div class="kart">
+                <img class="ax" src="./football/dybala.jpg" alt="">
+                <h2>پالو دیبالا</h2>
+                <h1>با رونالد بازی می کرده و هم بازی مسی بوده است</h1>
+            </div>
+            
+
+        </div>
+    </div>
     <div class="ports port3">1</div>
     <div class="ports port4">1</div>
     <div class="ports port5">1</div>
