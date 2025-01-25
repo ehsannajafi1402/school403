@@ -8,6 +8,9 @@
 
 <body>
     <style>
+        body{
+            direction: rtl;
+        }
          
         .header {
             background-color: rgb(23, 114, 50);
@@ -22,7 +25,19 @@
         }
         .part{
             background-color: rgb(246, 248, 248);
-            height: 200px;
+            min-height: 200px;
+        }
+        .card {
+            background-color: tan;
+            width: 300px;
+            height: 400px;
+            text-align: center;
+        }
+
+        .hh {
+            width: 300px;
+
+            height: 250px;
         }
         .part2{
             background-image: url('./coffee/coffee_bg2.png');
@@ -37,13 +52,56 @@
         .footer{
             height: 100px;
         }
-       
+       .list{
+        display: flex;
+        gap: 20px;
+       }
     </style>
     
     <div class="menu"></div>
     <div class="header"></div>
     <div class="part part1 ">
         <h1>گهوه</h1>
+        <div class="list">
+            <div class="card">
+                <img class="hh" src="./coffee/image1.jpg" alt="">
+                <h1>ضرر های قهوه</h1>
+                <p>
+        
+                    ایا میدانستید که قهوه برای افراد زیر 18 سال ممنوع است زیرا باعث جلوگیری از رشد مغز و قد میشود و باعث سرطان
+                    میشود
+                </p>
+            </div>
+        
+        
+            <div class="card">
+                <img class="hh" src="./coffee/image2.png" alt="">
+                <h1>ویژگی های قهوه</h1>
+                <p>
+                    ایا میدانستید که قهوه باعث سرحال شدن می شود
+                </p>
+            </div>
+        
+            <div class="card">
+                <img class="hh" src="./coffee/brands/brand6.png" alt="">
+                <h1> 
+                    قهوه ی فیل
+                </h1>
+                <p>
+                    میدانستید که این قهوه از متفوع فیل درست میشود و خیلی گران و کمیاب است
+                </p>
+            </div>
+            <div class="card">
+                <img class="hh" src="./coffee/naghd.webp" alt="">
+                <h1>شیر قهوه</h1>
+                <p>ترکیبات شیر قهوه : شیر - قهوه - شکر - کاکائو تلخ - عسل - خامه
+        
+        
+        
+        
+                </p>
+            </div>
+        </div>
     </div>
     <div class="part part2">2</div>
     <div class="part part3">3</div>
