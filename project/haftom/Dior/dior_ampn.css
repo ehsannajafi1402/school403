@@ -43,8 +43,24 @@
     min-height: 200px;
     padding: 50px 8%;
 }
+.part2{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+} 
+.part3{
+    color: #ffffff;
+display: flex;
+gap: 20px;
+}
+.part3_txt{
+    text-align: right;
+}
 .part2_img{
-    min-height: 150px;
+    height: 420px;
+    border-style:double;
+        border-color:rgb(254, 177, 183) ;
+        border-width: 15px;
 }
 .footer {
     background-color: rgb(254, 177, 183);
@@ -53,10 +69,16 @@
 .part5{
 color: #feb1b7;
 }
+details{
+    margin-bottom: 10px;
+}
+summary::marker{
+    content: '🎗';
+}
 .service_card {
     width: 250px;
     text-align: center;
-
+color: aliceblue;
 }
 .icon_card{
     font-size:xx-large;
