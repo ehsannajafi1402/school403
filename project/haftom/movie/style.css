@@ -1,9 +1,21 @@
 
         .menu {
             background-color: rgba(115, 33, 139, 0.849);
-            height: 60px;
-        }
+            /* height: 60px; */
+            padding: 0 8% ;
 
+        }
+.star li{
+display: inline-block;
+}
+.star li a{
+    display: inline-block;
+    padding: 40px;
+    }
+    .star li a:hover{
+        color: rgb(255, 255, 255);
+        background-color: blueviolet;
+        }
         .header {
             /* background-color: rgba(163, 113, 161, 0.418); */
             height: 400px;
@@ -75,4 +87,21 @@
             width: 100px;
             height: 200px;
             float: left;
+        }
+        .footer{
+            background-color: cornsilk;
+            padding: 30px 30px;
+            margin: 50px;
+            display: flex;
+            justify-content: space-between;
+        }
+        a{
+            color: rgb(198, 175, 202);
+            text-decoration: darkmagenta;
+        }
+        ul{
+            padding:0px;
+            margin: 0px;
+            display: inline-block;
+            
         }

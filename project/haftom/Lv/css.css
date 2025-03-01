@@ -1,6 +1,9 @@
 .zahra {
     background-color: rgb(249,245,246);
-    min-height: 60px;
+    /* min-height: 60px; */
+}
+.menu_icon{
+    margin-right: 5px;
 }
 .nabi {
     background-color: rgb(248,232,238);
@@ -15,10 +18,17 @@
 .mahya {
     background-color: rgb(249,245,246);
     min-height: 400px;
-    background-repeat: no-repeat;
-    background-image: url
+    display: flex;
+    justify-content: space-between;
 }
-
+.dokme{
+    background-color: #f8e8ee;
+    padding: 15px;
+    width: 100px;
+}
+.dokme_matn{
+    margin-left: 8px;
+}
 .mahya2 {
     background-color: rgb(248,232,238);
     min-height: 200px;
@@ -47,4 +57,33 @@
 }
 .mahya3{
     background-color: rgb(242,190,209);;
+}
+.𝘯𝘦𝘤𝘬𝘭𝘢𝘤𝘦{
+    
+    width:500px;
+    /* height:770px; */
+}
+.yasmin{
+    color: rgb(97, 93, 93);
+    padding: 15px 6%;
+    display:flex;
+   justify-content: space-between;
+}
+ul{
+    margin: 0%;
+    padding: 0;
+}
+ul li{
+    list-style: none;
+    text-emphasis-color: black;
+}
+a{
+    color: black;
+    text-decoration: none;
+    padding: 10px 0;
+    display: inline-block;
+}
+.zahra li{
+   display: inline-block;
+   padding: 10px;
 }

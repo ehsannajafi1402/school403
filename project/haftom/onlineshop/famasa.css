@@ -4,7 +4,13 @@
     height: 60px;
 
 }
-
+.senter{
+    text-align: center;
+}
+.fatemeh li{
+    display: inline;
+    padding: 40px
+}
 .header {
     background-image: url('./GettyImages-607396320\ \(1\).webp');
     background-size: cover;
@@ -52,9 +58,11 @@
     gap: 10px ;
 }
 .footer {
-    height: 100px;
     background-image: url('./images/Screenshot_20241102-202251_WhatsApp.jpg');
-    background-size: 200px
+    background-size: 200px;
+    padding: 20PX 8%;
+    display: flex;
+    justify-content: space-around;
 }
 .ted{
     height: 400px;
@@ -63,5 +71,8 @@
 .sayna{
     height: 200px;
     width: 300px;
+}
+.fatemeh{
+    display: inline-block;
 }
 

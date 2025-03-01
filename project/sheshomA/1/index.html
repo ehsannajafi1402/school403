@@ -3,60 +3,118 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>title</title>
+    <style>
+        body {
+            direction: rtl;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        /* ================================================= */
+
+        .header {
+            background-color: rgb(182, 124, 47);
+            height: 100px;
+            border-radius: 20px;
+        }
+
+        /* ================================================= */
+
+        .text1 {
+            color: aliceblue;
+            padding-top: 30px;
+            text-align: center;
+
+        }
+
+        /* ================================================= */
+
+        .parts {
+            padding: 50px 8% 50px 8%;
+            background-color: rgb(202, 251, 235);
+            min-height: 200px;
+        }
+
+        /* ================================================= */
+        .part1 {
+            background-color: aquamarine;
+        }
+
+        .coffeeContainer {
+            /* background-color: blueviolet; */
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .card {
+            background-color: tan;
+            width: 300px;
+            height: 400px;
+            padding: 5px;
+            color: white;
+            text-align: center;
+            border-radius: 10px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .hh {
+            width: 300px;
+            height: 250px;
+        }
+
+        /* ================================================= */
+    </style>
 </head>
 
 <body>
-    <div class="meno">
-        <nav>
-            <ul>
-                <center>
-                    <li>درباره ی ما</a></li>
-                    <li>داغ ترین ها</li>
-                    <li>تماس با ما</li>
-                </center>
+    <div class="header">
+        <h1 class="text1">
+            Coffee
+        </h1>
+    </div>
+    <div class="part1 parts">
+        <h2>
+            مدیر:اهورا هنری
+            سازنده:برسام جوکار
+        </h2>
+
+    </div>
+    <div class="part2 parts">
+        <h1>قهوه</h1>
+        <div class="coffeeContainer">
+            <div class="card">
+                <img class="hh" src="./naghd.webp" alt="">
+                <h1>coffee stombol</h1>
+            </div>
+            <div class="card">
+                <img class="hh" src="./naghd.webp" alt="">
+                <h1>coffee stombol</h1>
+            </div>
+            <div class="card">
+                <img class="hh" src="./naghd.webp" alt="">
+                <h1>coffee stombol</h1>
+            </div>
+            <div class="card">
+                <img class="hh" src="./naghd.webp" alt="">
+                <h1>coffee stombol</h1>
+            </div>
+            <div class="card">
+                <img class="hh" src="./naghd.webp" alt="">
+                <h1>coffee stombol</h1>
+            </div>
+            <div class="card">
+                <img class="hh" src="./naghd.webp" alt="">
+                <h1>coffee stombol</h1>
+            </div>
+        </div>
+    </div>
+    <div class="part3 parts">3</div>
+    <div class="part4 parts">4</div>
 
 
-            </ul>
-        </nav>
-    </div>
-    <div class="title">
-        <h1 class="title2">سلام به آواکالا خوش آمدید</h1>
-        <p class="title3">اینجا یک فروشگاه اینتزنتی عالی است</p>
-    </div>
-    <hr>
-    <div class="hot">
-        <h1 class="hot2">داغ ترین ها</h1>
-        <div class="card">
-            <img class="mt" src="pic/a.jpeg" alt="">
-            <h3 class="tt">ادکلن سوج</h3>
-            <p>100$</p>
-        </div>
-        <div class="card2">
-            <img class="mt2" src="pic/b.jpeg" alt="">
-            <h3 class="tt2">ادکلن کلاسیک</h3>
-            <p>150$</p>
-        </div>
-        <div class="card3">
-            <img class="mt3" src="pic/c.jpeg" alt="">
-            <h3 class="tt3">ادکلن بلو شنل</h3>
-            <p>130$</p>
-        </div>
-        <div class="card4">
-            <img class="mt4" src="pic/download (1).jpeg" alt="">
-            <h3 class="tt4">اسباب بازی پارکینگی</h3>
-            <p>30$</p>
-        </div>
-    </div>
-    <hr class="ty">
-    <div class="rtrt">
-        <h1 class="rtrt2">تماس با ما</h1>
-        <p class="rtrt3">راهنمای مشکلات سایت</p>
-        <h5 class="rtrt5">در صورت وجود ایرادی در سایت با شماره ی روبرو تماس بگیرید</h5>
-        <h2 class="rtrt4">09911998397</h2>
-    </div>
-    <hr class="ee">
+
 </body>
 
 </html>

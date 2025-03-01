@@ -62,10 +62,11 @@ gap: 20px;
         border-color:rgb(254, 177, 183) ;
         border-width: 15px;
 }
-.footer {
-    background-color: rgb(254, 177, 183);
-    height: 200px
+.part4{
+    display: flex;
+    justify-content: space-around;
 }
+
 .part5{
 color: #feb1b7;
 }
@@ -84,3 +85,18 @@ color: aliceblue;
     font-size:xx-large;
     width: 5px;
 }
+.footer{
+    padding: 30px 8%;
+    background-color: rgb(254, 177, 183);
+    display: flex;
+    padding: 20px;
+justify-content: space-between
+
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+
+}
+
+
