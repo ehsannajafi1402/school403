@@ -1,15 +1,30 @@
 
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
 .nav {
     background-color: #f3bfdf;
-    height: 60px;
 
 }
 .senter{
     text-align: center;
+    padding: 23px;
+}
+.fatemeh{
+    margin: 0;
 }
 .fatemeh li{
-    display: inline;
-    padding: 40px
+    display: inline-block;
+
+}
+.fatemeh a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px
+}
+.fatemeh a:hover{
+    background-color: #ffe0f3;
 }
 .header {
     background-image: url('./GettyImages-607396320\ \(1\).webp');
@@ -74,5 +89,6 @@
 }
 .fatemeh{
     display: inline-block;
+    
 }
 

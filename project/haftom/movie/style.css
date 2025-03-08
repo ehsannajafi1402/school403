@@ -1,3 +1,14 @@
+*{
+    scroll-behavior: smooth   ;
+}
+.parts {
+    /* background-color: rgb(196, 205, 221); */
+    min-height: 200px;
+    padding: 50px 8% 50px 8%;
+
+
+}
+        /* ====================================== */
 
         .menu {
             background-color: rgba(115, 33, 139, 0.849);
@@ -16,6 +27,7 @@ display: inline-block;
         color: rgb(255, 255, 255);
         background-color: blueviolet;
         }
+        /* ====================================== */
         .header {
             /* background-color: rgba(163, 113, 161, 0.418); */
             height: 400px;
@@ -26,6 +38,7 @@ display: inline-block;
           color: rgb(219, 200, 243);
         }
 
+        /* ====================================== */
 
         .part1 {}
 
@@ -51,20 +64,37 @@ display: inline-block;
             height: 200px;
             object-fit: contain;
         }
+        /* ====================================== */
 
-        .parts {
-            /* background-color: rgb(196, 205, 221); */
-            min-height: 200px;
-            padding: 50px 8% 50px 8%;
-
-
-        }
+      
 .part2{
     display: flex;
     gap:50px ;
     color: rgb(209, 183, 233);
     align-items: center;
 }
+.part3{
+    display: flex;
+    gap: 50px;
+    color: rgb(204, 206, 211);
+    align-items: center;
+
+}
+.part4{
+    display: flex;
+    gap: 50px;
+    color: rgb(170, 194, 240);
+    align-items: center;
+}
+.part5{
+    display: flex;
+    gap: 50px;
+    color: rgb(233, 198, 211);
+    align-items: center;
+
+}
+        /* ====================================== */
+
         .footer {
             background-color: rgb(0, 0, 0);
             height: 100px;
