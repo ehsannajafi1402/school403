@@ -148,7 +148,7 @@ border-right: none;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-footer ul{
+.footer ul{
     width: 150px;
 }
 footer li{
