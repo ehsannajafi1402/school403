@@ -1,0 +1,65 @@
+body {
+    direction: rtl;
+}
+
+.part {
+    background-color: aqua;
+    min-height: 75px;
+    padding: 50px 8% 50px 8%;
+
+}
+
+.header {
+    background-color: rgb(255, 255, 255);
+    height: 425px;
+    background-image: url('./football/jc1nqgpl.jpg');
+}
+
+.kard {
+    width: 250px;
+    min-height: 200px;
+    background-color: brown;
+    text-align: right;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.kard2 {
+    width: 250px;
+    min-height: 200px;
+    background-color:aquamarinev ;
+    text-align: right;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.ax {
+    width: 250px;
+    height: 200px;
+
+}
+
+.bazi {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+.bazi2 {
+    display: flex;
+    gap: 5px;
+    overflow-x: scroll;
+    
+}
+.toop{
+    width: 200px;
+    float: right;
+    margin-left: 40px;
+}.tooop{
+    width: 200px;
+    float: left;
+    margin-right: 40px;
+}
+.meesi{
+    column-count: 5;
+    column-gap: 40px;
+column-rule-style:dashed;
+column-rule-color: rgb(255, 0, 0);
+}

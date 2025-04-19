@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    margin: 40px 5%;
+}
+.gallery{ 
+    display: flex;
+    gap: 5px;
+
+}
+.items{
+ width:150px;
+}
+.item_link{
+border:2px solid pink;
+width: 100px;
+height: 150px;
+display: inline-block;
+margin-bottom: 5px;
+}
+.item{
+    width: 100%;
+    height: 100%;
+}
+.slider{
+width: 70%;
+display: grid;
+overflow: hidden;
+height: 450px;
+scroll-behavior: smooth;
+border:2px solid pink;
+}
+.slide{ 
+    min-width: 100%;
+    height: 450px;
+    object-fit: contain; 
+
+}

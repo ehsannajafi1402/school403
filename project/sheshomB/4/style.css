@@ -61,5 +61,8 @@ body {
     text-align: center;
 }
 .gallery{
-    
+    display: flex;
+    gap: 20px;
+    overflow-x: scroll;
+    padding-bottom:5px ;
 }

@@ -181,4 +181,18 @@ footer ul li:first-child a{
     font-weight: lighter;
 margin: 0;
 }
-
+.text-decoration{ 
+    text-decoration: underline;
+}
+.gallery{
+    width: 1700px;
+    height: 500px;
+    background-color: rgb(246, 219, 161);
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    overflow-x: hidden;
+}
+.gallery img{
+    flex-grow: 1;
+}
