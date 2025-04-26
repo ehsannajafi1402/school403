@@ -295,7 +295,14 @@ header .navbar ul li a:hover{
     color:#fff;
     background:var(--yellow);
 }
-
+.tarikhche{
+    color: var(--yellow);
+    font-size: 20px;
+    column-count: 3;
+    column-gap: 22px;
+    column-rule-style: dotted;
+    column-rule-color: var(--yellow);
+}
 .portfolio .box-container{
     display: flex;
     align-items: center;

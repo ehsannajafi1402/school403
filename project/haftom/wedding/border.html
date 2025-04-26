@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 60px;
+        }
+        .box{
+            width: 200px;
+            height: 200px;
+            background-color: rgb(238, 215, 186);
+        }
+.box1{
+    border-style: solid;
+    border-top: none;
+    border-right: none;
+    border-color: tomato;
+    border-width: 10px;
+}
+.box2{
+    border-style: dotted;
+    border-color: yellowgreen;
+    border-width: 4px;
+}
+.box3{
+    border-style: double;
+    border-color: blue;
+    border-bottom: none;
+    border-width: 10px;
+}
+.box4{
+
+    border-left: 10px double red;
+    border-right: 10px dashed purple;
+}
+.box5{
+    border-bottom: 10px dotted tan;
+    border-top: 10px solid seagreen;
+    border-right: 10px solid seagreen;
+    
+}
+.box6{
+    border-left: 10px double black;
+    border-bottom: 10px solid blue;
+    border-top: 10px dotted green;
+    border-right: 10px dashed red;
+}
+    </style>
+</head>
+<body>
+    <div class="box box1"></div>
+    <div class="box box2"></div>
+    <div class="box box3"></div>
+    <div class="box box4"></div>
+    <div class="box box5"></div>
+    <div class="box box6"></div>
+</body>
+</html>

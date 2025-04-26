@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            background-color: saddlebrown (219, 145, 219);
+            min-height: 100vh;
+            align-items: center;
+        }
+        form{
+            background-color:saddlebrown (144, 58, 140);
+            padding: 5px;
+            gap: 10px;
+            display: grid;
+        }
+        input:focus{
+    background-color:saddlebrown;
+            background-color:#ffc26fd9 (253, 222, 246);
+        }
+        span{
+color: cornflowerblue;
+
+        }
+
+        input:valid + span{
+            background-color: rgb(199, 246, 124);
+            display: none;
+        }
+        input:not(:checked)+label{
+            color: red;
+        }
+        
+    </style>
+</head>
+<form action="">
+    <h1 style="justify-content: center;"> login  </h1>
+    <label for="">email</label>
+    <input type="email"  placeholder="gmail.com" required>
+    <label for="">pasword</label>
+    <input type="pasword" required  placeholder="1.2.3...." min="6">
+    <span>erorr</span>
+
+    <div>
+        <input type="checkbox" checked>
+<label for="I agree">I agree</label> 
+    </div>
+    <button type="submit" value="">login</button>
+    
+
+
+
+
+
+
+
+</form>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
++

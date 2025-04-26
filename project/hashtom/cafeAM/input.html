@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Login</title>
+
+    <style>
+        body {
+            background:linear-gradient(45deg, #a1511c,white);
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            border-radius: 10px;
+        }
+
+        form {
+            background-color: rgb(251 223 205);
+
+            padding: 20px;
+            display: grid;
+            gap: 5px;
+
+        }
+        input:focus{
+            background-color: blueviolet;
+        }
+        span{
+            color: bisque;
+            display: none;
+        }
+        input:not(:placeholder-shown):invalid + span{
+            background-color: azure;
+            display: block;
+        }
+        a{
+            color: red;
+        }
+        input:checked+a{
+color: green;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <h2> login</h2>
+
+        <label for="">email</label>
+        <input type="email" placeholder="@gmail.com" required>
+
+        <label for="">password</label>
+        <input type="password" placeholder="123..." required minlength="6">
+         <span> Error</span>
+
+
+         <input type="checkbox" >
+<a> Hello my friend we want to see your smile!</a>
+
+        <input type="submit" value="login">
+    </form>
+</body>
+
+</html>

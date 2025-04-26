@@ -1,0 +1,131 @@
+*{
+    scroll-behavior: smooth;
+} 
+
+
+body{
+    direction:rtl ;
+    background-image: url( ./images/nody-دانلود-عکس-چلو-کباب-سلطانی-1620828328.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+a{
+text-decoration: none;
+}
+.none{
+list-style: none;
+margin:0;
+}
+.none>li{
+     margin-top:0 ;
+ display: inline-block;
+ padding: 30px; 
+ }.none>li:hover{
+
+background-color: beige;
+}
+
+
+.menu{
+    background-color:#884A39;  
+  
+}
+.header{ 
+    height: 400px;
+}
+.parts{
+    background-color: bisque;
+   min-height:100px;
+   padding: 50px 5% 50px 5%;
+}
+/* ======================================== */
+.part1{
+
+    background-color:#F9E0BB;
+    /* background-image: url(./images/nody-کباب-در-طبیعت-اینستاگرام-1620828324.jpg); */
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 15%;
+    background-position-x: 99%;
+
+
+}
+
+/* ======================================== */
+
+.part2{
+
+    background-image: url(./images/pattern.jfif);
+    background-color:#F9E0BB;
+}
+.part3{
+    background-color:#F9E0BB; 
+    
+}
+.kabab_ir{
+    height: 50px;
+    width: 50px;
+    background-color: #915f1a;
+    border-radius: 50%;
+    position: absolute;
+}
+.card{
+    width: 200px;
+    height: 350px;
+    background-color: #ffc26fd9;
+    padding: 5px;
+    position: relative;
+}
+.card_img{
+    width: 200px;
+    height: 150px;
+}
+.card_txt{
+    width: 200px;
+    height: 200px;
+}
+.kebab-list{
+    display: flex;
+    gap: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.part4{
+    background-color:#ffc26fd9;
+    column-count: 3;
+}
+.part5{
+
+    background-color:#F9E0BB;
+    
+}
+.kababi{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.part6{
+
+    background-color:#FFC26F
+}
+nav {
+    background-color: saddlebrown;
+}
+
+.menu>li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+}
+.kabab{
+    width: 60px;
+}
+footer{
+    background-color: seagreen;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

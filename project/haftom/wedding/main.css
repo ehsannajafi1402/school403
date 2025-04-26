@@ -146,10 +146,7 @@ border-right: none;
     display: flex;
     padding: 20px;
     justify-content: space-between;
-    flex-wrap: wrap;
-}
-.footer ul{
-    width: 150px;
+
 }
 footer li{
     list-style: none;
@@ -188,16 +185,20 @@ margin: 0;
     text-decoration: underline;
 }
 .gallery{
-    width: 1700px;
+    width: 800px;
     height: 500px;
     background-color: rgb(246, 219, 161);
     padding: 20px;
     display: flex;
     gap: 10px;
-    overflow-x: hidden;
+   
 }
 .gallery img{
-    flex-grow: 1;
+    object-fit: cover;
+    overflow: hidden;
+    flex: 1;
+    transition: all 1.5s linear;
 }
-
-
+.gallery img:hover{
+    flex: 7;
+}

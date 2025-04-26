@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+       .container{
+        background-color: rgb(187, 163, 132);
+        padding: 5px;
+        display: grid;
+        gap: 5px;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(3,200px);
+       } 
+       .item{
+        background-color: rgb(111, 181, 221);
+        overflow: hidden;
+       }
+       .item1{
+        grid-column: 1/3;
+       }
+       .item2{
+        grid-row: 1/3;
+        grid-column: 3/4;
+       }
+       .item3{
+        grid-column: 1/3;
+       }
+       .item5{
+        grid-column: 2/4;
+       }
+       .gallery{
+         width: 100%;
+         height: 100%;
+         transition: all 5s;
+         object-fit: cover;
+       }
+       .gallery:hover{
+         transform: scale(1.5);
+
+       }
+    </style>
+</head>
+<body>
+   <div class="container">
+   <div class="item item1">
+    <img class="gallery" src="./image/1627354-هنر-آشپزخانه-تخته-.jpg" alt="">
+   </div>
+   <div class="item item2">
+    <img class="gallery" src="./image/1631737-طرح-پوستر.jpg" alt="">
+   </div>
+   <div class="item item3">
+    <img class="gallery" src="./image/Capture.PNG" alt="">
+   </div>
+   <div class="item item4">
+    <img class="gallery" src="./image/franch.jpg" alt="">
+   </div>
+   <div class="item item5">
+    <img class="gallery" src="./image/2-25.jpg" alt="">
+   </div>
+</div>
+</body>
+</html>           
